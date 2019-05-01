@@ -1,0 +1,96 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100vw;
+	overflow-x: hidden;
+	background: #2E294E;
+	margin-bottom: 150px;
+}
+body::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: url(https://i.ytimg.com/vi/-n7LQGr7uiI/maxresdefault.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: .15;
+}
+a{
+	color: #C5D86D;
+}
+a:hover{
+	color: #C5D86D;
+}
+p{
+	color: #ccc;
+}
+.header{
+	margin-top: 150px;
+	margin-bottom: 50px
+}
+h1.head{
+	color: #F46036;
+	text-align: center;
+}
+h3.small-head{
+	color: #1B998B;
+	text-align: center;
+	margin-top: 20px;
+}	
+.text{
+	margin-top: 20px;
+	font-size: 24px;
+	color: #ccc;
+}
+.gun-img{
+	position: relative;
+	left: 50%;
+	top: 0;
+	height: 350px;
+	width: 350px;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	margin: 20px;
+	border: 5px solid #F46036;
+}
+.gun-img img{
+	display: block;
+	height: 280px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.gun-block{
+	display: inline-block;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.first-messege{
+	text-align: center;
+}
+.blanck{
+	background: #1B998B;
+	border-radius: 10px;
+	color: #fff;
+	margin-bottom: 100px;
+}
+.blanck .text{
+	padding: 20px;
+}
+.promo{
+	color: #fff;
+	padding-left: 30px;
+}
+.download .text{
+	margin: 0;
+}
+.ps{
+	margin: 50px 0;
+	color: grey;
+}
